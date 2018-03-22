@@ -1,0 +1,2 @@
+# SSNAR
+server applikasjon
