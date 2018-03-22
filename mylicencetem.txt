@@ -1,0 +1,6 @@
+/*
+ * This code is written as a part of a Master Thesis
+ * the spring of 2016.
+ *
+ * Thor Eivind Andersen and Mats Rødseth (Master 2016 @ NTNU)
+ */

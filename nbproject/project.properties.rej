@@ -1,0 +1,15 @@
+diff a/MasterTM/nbproject/project.properties b/MasterTM/nbproject/project.properties	(rejected hunks)
+@@ -30,12 +30,10 @@
+ endorsed.classpath=
+ excludes=
+ file.reference.rxtx-2.1.7.jar=../libraries/rxtx-2.1.7.jar
+-file.reference.rxtx-native-windows.jar=../libraries/rxtx-native-windows.jar
+ includes=**
+ jar.compress=false
+ javac.classpath=\
+-    ${file.reference.rxtx-2.1.7.jar}:\
+-    ${file.reference.rxtx-native-windows.jar}
++    ${file.reference.rxtx-2.1.7.jar}
+ # Space-separated list of extra javac options
+ javac.compilerargs=
+ javac.deprecation=false
