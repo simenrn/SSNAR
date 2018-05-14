@@ -6,7 +6,7 @@
  */
 package no.ntnu.et.navigation;
 
-import static no.ntnu.et.general.Navigation.getShortestDistanceAngle;
+import static no.ntnu.et.general.Navigation.getShortestDistanceHeading;
 import no.ntnu.et.general.Position;
 import static no.ntnu.et.general.Utilities.getMeasurementHeadings;
 import no.ntnu.et.map.GridMap;
@@ -145,7 +145,7 @@ public class SlamNavigationController extends NavigationController {
             */
 
             System.out.println("Distances: " + distances[90] + ", " + distances[91] + ", " + distances[92] + ", " + distances[93] + ", "+ distances[94] + ", " + distances[95] + ", " + distances[96] + ", " + distances[97]);
-            int shortestAngle = getShortestDistanceAngle(distances);
+            int shortestAngle = getShortestDistanceHeading(distances);
             //System.out.println("Angle: " + shortestAngle);
             //System.out.println("distances[120]: " + distances[120]);
             //break;

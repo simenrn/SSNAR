@@ -18,7 +18,7 @@ public class Navigation {
      * @param distances array [0,360)
      * @return int angle [0,360)
      */
-    public static int getShortestDistanceAngle(int[] distances) {
+    public static int getShortestDistanceHeading(int[] distances) {
         int angle = -1;
         int shortest = Integer.MAX_VALUE;
         for (int i = 0; i < distances.length; i++) {

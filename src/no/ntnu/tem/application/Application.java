@@ -79,6 +79,8 @@ public final class Application {
     }
     public void connectToRobot(Robot r) {
         if (!simulatorActive) {
+            System.out.println("ID:" + r.getId());
+            System.out.println("Address:" + r.getAddress());
             com.confirmHandshake(r.getAddress());
         } else {
             sim.unpauseRobot(r.getName());

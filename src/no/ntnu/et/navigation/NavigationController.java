@@ -16,7 +16,7 @@ package no.ntnu.et.navigation;
  */
 import java.util.ArrayList;
 import java.util.HashMap;
-import static no.ntnu.et.general.Navigation.getShortestDistanceAngle;
+import static no.ntnu.et.general.Navigation.getShortestDistanceHeading;
 import no.ntnu.et.general.Position;
 import static no.ntnu.et.general.Utilities.getMeasurementHeadings;
 import no.ntnu.et.map.GridMap;
